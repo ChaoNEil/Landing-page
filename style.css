@@ -1,0 +1,88 @@
+/*navigation section style*/
+
+.Top-Container{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: end;
+    gap: 18px;
+    margin-bottom: 25px;
+}
+
+/*1st container styles*/
+.first-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.right-items{
+    padding-top: 55px;
+}
+
+.left-items{
+    padding-top: 40px;
+}
+.signup-button{
+    margin-top: 15px;
+    width: 115px;
+    height: 34px;
+    border-radius: 5px; /*to make the edges smooth */
+}
+
+
+
+/*2nd container styles*/
+.middle-header{
+    display: flex;
+    justify-content: center;
+}
+
+.middle-containers{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    border: 4px solid skyblue;
+    margin: 45px;
+    border-radius: 12px;  /*to make the edges smooth */
+}
+
+.text {
+    text-align: center;
+    padding-top: 200px;
+}
+
+
+
+/*3rd container styles*/
+.third-container {
+    display: flex;
+    background-color: gray;
+}
+
+.third-container-text {
+   padding-top: 120px;
+   padding-bottom: 50px;
+   margin: 60px;
+   padding-left: 90px;
+   padding-right: 90px;
+}
+
+.third-text {
+    padding: 45px;
+    text-align: center;
+}
+
+.person-name {
+    font-weight: bold;
+    text-align: right;
+}
+
+
+/*4th container styles*/
