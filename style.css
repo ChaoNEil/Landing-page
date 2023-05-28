@@ -86,3 +86,24 @@ ul{
 
 
 /*4th container styles*/
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box-inside-container{
+    flex: 1;;
+    padding: 40px;
+    background-color:  skyblue;
+    margin: 70px;
+    border-radius: 12px
+}
+
+.sign-btn-2{
+    margin-top: 5px;
+    width: 115px;
+    height: 34px;
+    border-radius: 5px;
+}
