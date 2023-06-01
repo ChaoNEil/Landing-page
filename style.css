@@ -90,7 +90,8 @@ ul{
     display: flex;
     justify-content: center;
     text-align: center;
-    
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .box-inside-container{
@@ -106,4 +107,17 @@ ul{
     width: 115px;
     height: 34px;
     border-radius: 5px;
+}
+
+
+/*footer container styles*/
+.footer{
+    background-color: #1f2937;
+    padding: 10px;
+    text-align: center;
+    margin-top: 49.1px;
+}
+
+.footer-text{
+    color: azure;
 }
