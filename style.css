@@ -1,8 +1,14 @@
-/*navigation section style*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
+
+/*navigation section style*/
 .Top-Container{
     display: flex;
     justify-content: space-around;
+    background-color: #1f2937;
+    color: azure;
 }
 
 ul{
@@ -11,12 +17,22 @@ ul{
     align-items: end;
     gap: 18px;
     margin-bottom: 25px;
+    color: gray;
 }
 
 /*1st container styles*/
 .first-container{
     display: flex;
     justify-content: space-evenly;
+    background-color: #1f2937;
+}
+
+.main-text{
+    color: #f9faf8;
+}
+
+.secondary-text{
+    color: #e5e7eb;
 }
 
 .right-items{
@@ -31,6 +47,8 @@ ul{
     width: 115px;
     height: 34px;
     border-radius: 5px; /*to make the edges smooth */
+    background-color: skyblue;
+    color: black;
 }
 
 
@@ -39,6 +57,8 @@ ul{
 .middle-header{
     display: flex;
     justify-content: center;
+    font-weight: bolder;
+    font-size: 38px;
 }
 
 .middle-containers{
@@ -56,6 +76,7 @@ ul{
 .text {
     text-align: center;
     padding-top: 200px;
+    color: gray;
 }
 
 
@@ -63,7 +84,7 @@ ul{
 /*3rd container styles*/
 .third-container {
     display: flex;
-    background-color: gray;
+    background-color: #e5e7eb;
 }
 
 .third-container-text {
@@ -72,6 +93,8 @@ ul{
    margin: 60px;
    padding-left: 90px;
    padding-right: 90px;
+   color: #1f2937;
+   font-size: 28px;
 }
 
 .third-text {
@@ -80,7 +103,7 @@ ul{
 }
 
 .person-name {
-    font-weight: bold;
+    font-weight: normal;
     text-align: right;
 }
 
